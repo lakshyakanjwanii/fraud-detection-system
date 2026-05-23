@@ -1,1 +1,1 @@
-# fraud-detection-system
+Real-Time AI Fraud Detection Platform. An end-to-end machine learning system that detects fraudulent banking transactions in real time using an XGBoost + LSTM ensemble, served via a FastAPI scoring endpoint and monitored through a Streamlit dashboard.
