@@ -9,9 +9,20 @@ Day 2: Types of Frauds:
     Synthetic Identity - scammer makes a completely new personality by mixing parts of a person's real details and also fake details so scam cannot be traced back to a singular person. Can be prevented by behaviour analysis and biometric checking.
 Day 3: 
     3.5% fraud rate
+
     Fraud average amount only 3% higher than legitimate
+
     Top missing columns at 90%+
 
+    Dataset contains transaction id and value of how likely it is an fraudulent transaction on a scale of 0 to 1 and also contains time of transaction, amount and device through which transaction took place.
+
+    The fraud rate of the dataset is 3.5% vs the real world transactions have a fraud rate of 0.1%. higher fraud rate in dataset helps model learn and flag transactions efficiently.
+
+    Transaction amounts are not a good measure to verify whether a transaction is fraudulent or not.
+
+    Time pattern chart showed us that most transactions take place during hours 17 to 24 and the number or transaction increase/decrease is proportional to number of fraud transactions. also the most fraud transactions take place during hours 0 and 1 due to automated fraud scripts.
+
+    I merged both files using left join as to not miss any transactions and also to join related data to a transaction if it exists.
 
     
 
