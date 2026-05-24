@@ -7,7 +7,10 @@ Day 2: Types of Frauds:
     Velocity Abuse - scammer makes multiple transactions in a short time duration to check usability of card. Can be prevented by monitoring spending analysis and ip address tracking and location tracking.
 
     Synthetic Identity - scammer makes a completely new personality by mixing parts of a person's real details and also fake details so scam cannot be traced back to a singular person. Can be prevented by behaviour analysis and biometric checking.
-    
+Day 3: 
+    3.5% fraud rate
+    Fraud average amount only 3% higher than legitimate
+    Top missing columns at 90%+
 
 
     
