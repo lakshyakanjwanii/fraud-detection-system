@@ -23,7 +23,14 @@ Day 3:
     Time pattern chart showed us that most transactions take place during hours 17 to 24 and the number or transaction increase/decrease is proportional to number of fraud transactions. also the most fraud transactions take place during hours 0 and 1 due to automated fraud scripts.
 
     I merged both files using left join as to not miss any transactions and also to join related data to a transaction if it exists.
-
-    
+Day 4: 
+    Understood data and its structure
+Day 5: 
+    Started with 435 columns, dropped 208 high missing value columns
+    Filled numerical missing values with median
+    Filled categorical missing values with Unknown
+    Label encoded 13 categorical columns
+    Scaled all numerical columns with StandardScaler
+    Saved cleaned dataset to data/processed/cleaned_data.csv
 
        
